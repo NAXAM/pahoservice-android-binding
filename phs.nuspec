@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required elements-->
+        <id>Naxam.PahoService.Droid</id>
+        <version>1.0.2</version>
+        <authors>NAXAM CO.,LTD</authors>
+        <owners>NAXAM CO.,LTD</owners>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <title>Naxam - PahoService for Android</title>
+        <summary>Xamarin.Android Binding Library - PahoService for Android</summary>
+        <description>Xamarin.Android Binding Library - PahoService for Android</description>
+        <releaseNotes>PahoService for Android v1.0.2</releaseNotes>
+        <iconUrl>https://avatars1.githubusercontent.com/u/25535951</iconUrl>
+        <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+        <projectUrl>https://github.com/NAXAM/pahoservice-android-binding</projectUrl>
+        <copyright>Copyright (c) 2017 NAXAM</copyright>
+        <tags>Xamarin.Android, paho.android.service, paho-android-service</tags>
+        <dependencies>
+            <dependency id="Xamarin.GooglePlayServices.Wallet" version="42.1021.1" />
+        </dependencies>
+    </metadata>
+    <!-- Optional 'files' node -->
+    <files>
+        <file src="Naxam.PahoService.Droid/bin/Release/Naxam.PahoService.Droid.dll" target="lib/MonoAndroid10/Naxam.PahoService.Droid.dll" />
+    </files>
+</package>
